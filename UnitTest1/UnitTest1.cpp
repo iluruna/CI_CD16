@@ -17,13 +17,13 @@ namespace UnitTest1
 			double expected = 12.0;
 			Assert::AreEqual(expected, actual);
 		}
-		TEST_METHOD(TestRectangleArea1)
+		/*TEST_METHOD(TestRectangleArea1)
 		{
 			MathFunctions math;
 			double actual = math.RectangleArea(3.0, 4.0);
 			double expected = 6.0;
 			Assert::AreEqual(expected, actual);
-		}
-
+		}*/
+		
 	};
 }
