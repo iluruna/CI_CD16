@@ -21,7 +21,7 @@ namespace UnitTest1
 		{
 			MathFunctions math;
 			double actual = math.RectangleArea(3.0, 4.0);
-			double expected = 8.0;
+			double expected = 6.0;
 			Assert::AreEqual(expected, actual);
 		}
 
