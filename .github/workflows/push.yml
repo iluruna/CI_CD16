@@ -86,7 +86,7 @@ jobs:
     
     - name: stage
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: copy  x64\Release\PipeplinesExe.exe .
+      run: copy  x64\Release\CICDExe.exe .
       
     - name: addEmail
       working-directory: ${{env.GITHUB_WORKSPACE}}
@@ -98,7 +98,7 @@ jobs:
       
     - name: add
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: git add PipeplinesExe.exe 
+      run: git add CICDExe.exe 
           
     - name: commit
       working-directory: ${{env.GITHUB_WORKSPACE}}
