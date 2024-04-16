@@ -3,5 +3,5 @@
 MathFunctions::MathFunctions() {}
 
 double MathFunctions::RectangleArea(double length, double width) {
-    return length * width
+    return length * width;
 }
