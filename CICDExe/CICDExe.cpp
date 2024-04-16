@@ -6,7 +6,7 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Hello from Group 16!\n";
     MathFunctions mF;
     std::cout << "Area " << mF.RectangleArea(1, 2);
 }
