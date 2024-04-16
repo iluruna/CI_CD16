@@ -21,7 +21,7 @@ env:
   BUILD_CONFIGURATION: Release
 
 permissions:
-  contents: read      
+  contents: write      
 
 jobs:
   build:
@@ -71,7 +71,7 @@ jobs:
         working-directory: ${{env.GITHUB_WORKSPACE}}
         run: VSTest.Console.exe x64\Release\UnitTest1.dll
 
-SaveBinary:
+  SaveBinary:
     needs: [test]
     runs-on: windows-latest
     
